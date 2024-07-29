@@ -10,6 +10,13 @@
 </head>
 
 <body>
+    <script>
+        const starContainers = document.querySelectorAll('.stars');
+        const starImage = '<img src="/images/icon-star.svg" class="w-4 h-4" alt="Star">';
+        starContainers.forEach(container => {
+            container.innerHTML = starImage.repeat(5);
+        });
+    </script>
     <main>
         <div class="flex md:h-screen w-full items-center justify-center">
             <div class="absolute inset-0 bg-no-repeat bg-mobile-top md:bg-desktop-top"></div>
@@ -102,13 +109,6 @@
         </div>
 
     </main>
-    <script>
-        const starContainers = document.querySelectorAll('.stars');
-        const starImage = '<img src="/images/icon-star.svg" class="w-4 h-4" alt="Star">';
-        starContainers.forEach(container => {
-            container.innerHTML = starImage.repeat(5);
-        });
-    </script>
 
 </body>
 
