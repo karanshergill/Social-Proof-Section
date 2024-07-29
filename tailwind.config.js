@@ -10,6 +10,12 @@ module.exports = {
         'Neutral-Light-Grayish-Magenta': 'hsl(300, 24%, 96%)',
         'Neutral-White': 'hsl(0, 0%, 100%)'
       },
+      backgroundImage: {
+        'desktop-top': "url('./images/bg-pattern-top-desktop.svg')",
+        'desktop-bottom': "url('./images/bg-pattern-bottom-desktop.svg')",
+        'mobile-top': "url('./images/bg-pattern-top-mobile.svg')",
+        'mobile-bottom': "url('./images/bg-pattern-bottom-mobile.svg')",
+      },
       fontFamily: {
         'League-Spartan': ["League Spartan", "sans-serif"]
       }
